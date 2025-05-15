@@ -24,7 +24,7 @@ CREATE TABLE OrderItems (
   PRIMARY KEY (OrderID, Product)
 );
  
-   srep 2:
+   step 2:
 INSERT INTO Orders (OrderID, CustomerName)
 SELECT DISTINCT OrderID, CustomerName
 FROM OrderDetails;
